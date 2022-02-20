@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		<link rel="stylesheet" href="./css/main.css">
+		<title>Frontend Mentor | [Challenge Name Here]</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+
+	<body class="dark-theme">
+		<nav>
+			<div class="nav-heading">
+				<h2 class="heading secondary-text">Social Media Dashboard</h2>
+				<p class="caption">Total Followers: 23,004</p>
+			</div>
+			<div class="toggle flex">
+				<p class="toggle-text secondary-text">Dark Mode</p>
+				<div class="toggle-switch">
+					<input type="checkbox" id="switch">
+					<label for="switch"></label>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="social-container twitter">
+				<span class="flex">
+					<img src="./images/icon-twitter.svg" alt="">
+					<p>@nathanf</p>
+				</span>
+				<div class="followers">
+					<p class="value">1987</p>
+					<p>Followers</p>
+				</div>
+				<span class="new-followers">
+					<img src="./images/icon-up.svg" alt="" width="5" height="5">
+					<p class="up">12 Today</p>
+				</span>
+
+			</div>
+			<div class="social-container facebook">
+				<span class="flex">
+					<img src="./images/icon-facebook.svg" alt="">
+					<p>@nathanf</p>
+				</span>
+				<div class="followers">
+					<p class="value">1044</p>
+					<p>Followers</p>
+				</div>
+				<span class="new-followers">
+					<img src="./images/icon-up.svg" alt="" width="5" height="5">
+					<p class="up">99 Today</p>
+				</span>
+			</div>
+			<div class="social-container instagram">
+				<span class="flex">
+					<img src="./images/icon-instagram.svg" alt="">
+					<p>@realnathanf</p>
+				</span>
+				<div class="followers">
+					<p class="value">11k</p>
+					<p>Followers</p>
+				</div>
+				<span class="new-followers">
+					<img src="./images/icon-up.svg" alt="" width="5" height="5">
+					<p class="up">1099 Today</p>
+				</span>
+			</div>
+			<div class="social-container youtube">
+				<span class="flex">
+					<img src="./images/icon-youtube.svg" alt="">
+					<p>Nathan F.</p>
+				</span>
+				<div class="followers">
+					<p class="value">8239</p>
+					<p>Subscribers</p>
+				</div>
+				<span class="new-followers">
+					<img src="./images/icon-down.svg" alt="" width="5" height="5">
+					<p class="down">144 Today</p>
+				</span>
+			</div>
+		</div>
+
+
+		<section class="overview">
+			<div class="overview">
+				<p class="white">Overview - Today</p>
+				<div class="overview-grid">
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Page Views</p>
+							<img src="./images/icon-facebook.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">87</p>
+							<span class="new-followers">
+								<img src="./images/icon-up.svg" alt="">
+								<p class="up">3%</p>
+							</span>
+						</div>
+					</div>
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Likes</p>
+							<img src="./images/icon-facebook.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">52</p>
+							<span class="new-followers">
+								<img src="./images/icon-up.svg" alt="">
+								<p class="up">2%</p>
+							</span>
+						</div>
+					</div>
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Likes</p>
+							<img src="./images/icon-instagram.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">5462</p>
+							<span class="new-followers">
+								<img src="./images/icon-up.svg" alt="">
+								<p class="up">2257%</p>
+							</span>
+						</div>
+					</div>
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Profile views</p>
+							<img src="./images/icon-instagram.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">52k</p>
+							<span class="new-followers">
+								<img src="./images/icon-up.svg" alt="">
+								<p class="up">135%</p>
+							</span>
+						</div>
+					</div>
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Retweets</p>
+							<img src="./images/icon-twitter.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">117</p>
+							<span class="new-followers">
+								<img src="./images/icon-up.svg" alt="">
+								<p class="up">303%</p>
+							</span>
+						</div>
+					</div>
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Likes</p>
+							<img src="./images/icon-twitter.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">507</p>
+							<span class="new-followers">
+								<img src="./images/icon-up.svg" alt="">
+								<p class="up">553%</p>
+							</span>
+						</div>
+					</div>
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Likes</p>
+							<img src="./images/icon-youtube.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">107</p>
+							<span class="new-followers">
+								<img src="./images/icon-down.svg" alt="">
+								<p class="down">19%</p>
+							</span>
+						</div>
+					</div>
+					<div class="overview-item card">
+						<div class="flex">
+							<p>Total views</p>
+							<img src="./images/icon-youtube.svg" alt="">
+						</div>
+						<div class="flex">
+							<p class="value">1407</p>
+							<span class="new-followers">
+								<img src="./images/icon-down.svg" alt="">
+								<p class="down">12%</p>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="#">Your Name Here</a>.
+		</div>
+		<script src="./js/themes.js"></script>
+	</body>
+</html>
