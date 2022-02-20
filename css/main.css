@@ -193,6 +193,10 @@ div.overview{
     padding-bottom: 10px;
 }
 
+.overview > p.value{
+    font-size: 1em;
+}
+
 .social-container::before{
     content: '';
     position: absolute;
